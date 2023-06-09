@@ -6,6 +6,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Creating A Window", "Creati
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hello Triangle", "Hello Triangle\Hello Triangle.csproj", "{B9AA1797-E120-4C7F-9220-565BA3706C97}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Other OpenTK Programs", "Other OpenTK Programs", "{171F26DF-F4A5-4F99-A603-BF651F2C2B9B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Debug_Menu", "Debug_Menu\Debug_Menu.csproj", "{701024AC-E385-4482-978B-CC94AAE30611}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -20,9 +24,14 @@ Global
 		{B9AA1797-E120-4C7F-9220-565BA3706C97}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B9AA1797-E120-4C7F-9220-565BA3706C97}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B9AA1797-E120-4C7F-9220-565BA3706C97}.Release|Any CPU.Build.0 = Release|Any CPU
+		{701024AC-E385-4482-978B-CC94AAE30611}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{701024AC-E385-4482-978B-CC94AAE30611}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{701024AC-E385-4482-978B-CC94AAE30611}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{701024AC-E385-4482-978B-CC94AAE30611}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{0F25B604-7BFE-459B-B31E-2A576F33EDCD} = {9041B7D8-5C69-4D7D-BF3B-0FA02B412424}
 		{B9AA1797-E120-4C7F-9220-565BA3706C97} = {9041B7D8-5C69-4D7D-BF3B-0FA02B412424}
+		{701024AC-E385-4482-978B-CC94AAE30611} = {171F26DF-F4A5-4F99-A603-BF651F2C2B9B}
 	EndGlobalSection
 EndGlobal
