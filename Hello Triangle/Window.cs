@@ -55,7 +55,7 @@ public class Window  : GameWindow
         GL.VertexAttribPointer(0, 3, VertexAttribPointerType.Float, false, 3 * sizeof(float), 0);
         GL.EnableVertexAttribArray(0);
         
-        shader = new Shader(@"C:\Users\adam\Documents\GitHub\OpenTK-Learning\Hello Triangle\shader.vert", @"C:\Users\adam\Documents\GitHub\OpenTK-Learning\Hello Triangle\shader.frag");
+        shader = new Shader(@"C:\Users\hello\Documents\GitHub\OpenTK-Learning\Hello Triangle\shader.vert", @"C:\Users\hello\Documents\GitHub\OpenTK-Learning\Hello Triangle\shader.frag");
         shader.Use();
     }
 
